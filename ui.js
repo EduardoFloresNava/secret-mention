@@ -5,5 +5,12 @@ $(function(){
     $('span.count').text(max_count - count);
   });
   
-  h = $(window).height();
+  $('form').on('submit', function(e) {
+    e.preventDefault();
+    $('.sobre').addClass('up')
+    setTimeout(function() {
+      $('.form').addClass('up');
+    }, 1000);
+  })
+  
 });

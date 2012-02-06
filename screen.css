@@ -1,0 +1,70 @@
+
+body {
+  background: #f0f0f0;
+}
+body > .container {
+  background: white;
+  width: 560px;
+  margin: 20px auto 0;
+  position: relative;
+  min-height: 700px;
+}
+.form {
+  background: #ddd;
+  padding: 20px;
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  width: 440px;
+  z-index: 2;
+}
+.form.up {
+  top: 230px;
+}
+.sobre {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  height: 300px;
+}
+.sobre .wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sobre .wrap div {
+  width: 560px;
+  position: absolute;
+  bottom: 0;
+}
+
+.sobre .wrap .back {
+  height: 100%;
+  background: #382720;
+  z-index: 1;
+}
+.sobre .front {
+  height: 250px;
+  background: #6A4A3C;
+  z-index: 3;
+}
+.sobre.up {
+  top: 200px;
+}
+.flash {
+  position: absolute;
+  top: 600px;
+  background: #c0c0c0;
+  height: 30px;
+}
+footer {
+  position: fixed;
+  z-index: 3;
+  min-width: 600px;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  background: #000;
+  width: 100%;
+}
