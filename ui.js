@@ -4,4 +4,6 @@ $(function(){
     count = $(this).val().length;
     $('span.count').text(max_count - count);
   });
+  
+  h = $(window).height();
 });
