@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Secret Mentions</title>
+  <script src="modernizr-2.0.6.min.js"></script>
+  <link rel="stylesheet" href="foundation-custom.css" type="text/css" />
+  <style>
+  .wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    min-height: 700px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  body > .container {
+    width: 560px;
+    margin-left: -300px;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    background: #ddd;
+    z-index: 1;
+  }
+  .sobre {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background: red;
+    bottom: 0;
+    left: 0;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Secret Mention</h1>
+    <form class="nice">
+      <input type="text" name="to" id="to" class="placeholder input-text" placeholder="Para" />
+      <textarea placeholder="Mensaje"></textarea>
+      <span class="count">140</span>
+    </form>
+  </div>
+
+  <div class="wrap">
+    <div class="sobre">&nbsp;</div>
+  </div>
+
+<script type="text/javascript" charset="utf-8">
+  Modernizr.load('jquery-1.7.1.min.js');
+  Modernizr.load('jquery.placeholder.min.js');
+  Modernizr.load('ui.js');
+
+</script>
+
+</body>
+</html>
