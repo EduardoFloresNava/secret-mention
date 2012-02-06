@@ -13,7 +13,7 @@ $(function(){
       setTimeout(function(){
         $('.sobre .front').text('Mensaje Enviado');
       }, 1000)
-    }, 1000);
+    }, 800);
   })
   
 });
