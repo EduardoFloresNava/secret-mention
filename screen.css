@@ -50,6 +50,11 @@ body > .container {
   height: 250px;
   background: #6A4A3C;
   z-index: 3;
+  text-align: center;
+  line-height: 250px;
+  color: #DDBA7D;
+  font-size: 32px;
+  font-weight: 800;
 }
 .sobre.up {
   top: 200px;
