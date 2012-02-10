@@ -1,30 +1,54 @@
 
 body {
-  background: #f0f0f0;
+  background: #151414 url(dark_wood.png) 0 0 repeat;
 }
 body > .container {
-  background: white;
-  width: 560px;
+  background: transparent;
+  color: white;
+  width: 800px;
   margin: 20px auto 0;
   position: relative;
   min-height: 700px;
 }
+h1 {
+  color: white;
+}
 .form {
-  background: #ddd;
+  background: #edebe7 url(ricepaper.png) 0 0 repeat;
   padding: 20px;
   position: absolute;
   top: 70px;
   left: 60px;
-  width: 440px;
+  width: 680px;
   z-index: 2;
   -webkit-transition: all 0.6s ease-in-out;
+}
+.form, .form .input-text, .form textarea {
+  font: 20px/1.5 Helvetica;
+}
+.form .input-text {
+  border: none;
+  border-bottom: 1px dotted #999;
+  background: none;
+  width: 100%;
+}
+.form .input-text:focus {
+  background: none;
+  width: 100%;
+}
+.form textarea {
+  background: rgba(0,0,0,0.2);
+  border: none;
+  overflow: auto;
+  resize: none;
+  outline: none;
 }
 .form.up {
   top: 230px;
 }
 .sobre {
   position: absolute;
-  top: 300px;
+  top: 380px;
   width: 100%;
   height: 300px;
   -webkit-transition: all 0.6s ease-in-out;
@@ -36,19 +60,19 @@ body > .container {
 }
 
 .sobre .wrap div {
-  width: 560px;
+  width: 800px;
   position: absolute;
   bottom: 0;
 }
 
 .sobre .wrap .back {
   height: 100%;
-  background: #382720;
+  background: #382720 url(sobre_back.png);
   z-index: 1;
 }
 .sobre .front {
   height: 250px;
-  background: #6A4A3C;
+  background: #6A4A3C url(sobre.png);
   z-index: 3;
   text-align: center;
   line-height: 250px;
