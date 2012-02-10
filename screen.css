@@ -17,6 +17,7 @@ h1 {
   background: #edebe7 url(ricepaper.png) 0 0 repeat;
   padding: 20px;
   position: absolute;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
   top: 70px;
   left: 60px;
   width: 680px;
